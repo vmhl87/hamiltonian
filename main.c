@@ -106,7 +106,7 @@ void generate(){
 
 void draw(){
 	for(int j=0; j<h; ++j){
-		move(2, j+2);
+		move(3, j+2);
 
 		for(int i=0; i<w; ++i){
 			if(i == x && j == y)
